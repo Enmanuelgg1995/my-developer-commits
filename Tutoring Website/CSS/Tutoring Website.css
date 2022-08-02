@@ -1,0 +1,155 @@
+html{
+    background-color: #081E3F;
+}
+h1{
+    font-size: 81px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5 rgba(0, 0, 0, 50)
+}
+.sub-title {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5 rgba(0, 0, 0, 50)
+}
+.Quotes {
+    font-size: 36px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-shadow: 5px 5px 5 rgba(0, 0, 0, 50)
+}
+.testimonial-Quotes{
+  color:#C3993F;
+}
+
+body img {
+    max-width: 340px;
+    height: auto;
+    padding-right: 20px;
+    border-radius: 20%;
+}
+.site-nav {
+  position: relative;
+  z-index: 100;
+    font-size: 36px;
+    min-height: 51px;
+    background-color: #C3993F;
+    box-shadow: 5px 5px 100 rgba(0, 0, 0, 20);
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+}
+.Tutoring {
+    margin-right: 20px;
+}
+.About {
+    margin-right: 20px;
+}
+.Home {
+    margin-right: auto;
+    padding-left: 20px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: #081E3F;
+    text-shadow: 1px 1px 4 rgba(0, 0, 0, 50);
+}
+
+/*Hero */
+.wide-container {
+  
+  position: relative;
+  
+
+}
+.gradient-background{
+  background-image: linear-gradient(to top,#c3993f4d,#081E3F4d);
+  position:absolute;
+  z-index: 15;
+  bottom: 0;
+  height: 1880px;
+  width: 2100px;
+} 
+.container {
+    width: 1060px;
+    height: auto;
+    margin: auto;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+
+}
+
+.Hero {
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+
+}
+.title {
+    flex: 7;
+}
+.title-quote{
+  padding: 0 100px;
+}
+.title-author{
+  text-align: right;
+  padding-right: 100px;
+}
+.title-image {
+    flex: 5;
+  /*  background-color: gray; */
+}
+.title-image img {
+    border-radius: 0;
+
+}
+.Testimonials {
+  display: flex;
+  flex-direction: column;
+}
+.Testimonials > *{
+  display: flex; 
+  align-items: center;
+}
+
+.student-2 img {
+  padding-left: 20px;
+  max-width: 340px;
+  height: auto;
+  border-radius: 20%;
+}
+
+
+
+.s1,.s2,.s3 {
+  text-align: right;  
+}
+footer {
+  display: flex;
+  align-items: center;
+
+}
+footer p{
+  flex-grow: 1;
+}
+footer img {
+  border-radius: 0;
+  padding: 0 20px ;
+}
+.gradient-Title{
+  position: absolute;
+  top: 10%;
+  left: -30%;
+  z-index: 10;
+  width: 2500px;
+  height: 400px;
+  background-image: radial-gradient(#C3993F81,#081E3F81 70%); 
+  border-radius: 50%;
+  transform: rotate(-15deg);
+}
